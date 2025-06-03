@@ -3,9 +3,8 @@
   font-size: 0.9rem;
   font-weight: normal;
 }
-.navbar-title {
-  font-size: 1.8rem; /* Adjust this value to your liking */
-  font-weight: bold;
+.quarto-title-banner .quarto-title .title {
+  font-size: 2.2rem;  /* adjust as needed */
 }
 .post-title + .post-categories {
   margin-top: 0.5rem; /* You can adjust the spacing */
