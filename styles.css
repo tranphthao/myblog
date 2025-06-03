@@ -1,1 +1,5 @@
 /* css styles */
+.about-page p {
+  font-size: 0.9rem;
+  font-weight: normal;
+}

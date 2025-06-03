@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Thao (Tracy) Tran"
 image: blog.png
 about:
   template: jolla
@@ -12,8 +12,13 @@ about:
       href: https://github.com/tranphthao
 
 ---
+::: {.about-page}
 
 ## About this blog
 
+A data analysis master student with finance undergraduate background. 
+
 The Garden of Gains is a quiet space where I gather my thoughts and observations about the world of math and finance. Like keeping a journal in a garden, I write to reflect on the news I read, the case studies I explore, and the insights I uncover along the way. This is where ideas take root, grow, and sometimes bloom into deeper understanding. It’s not just about gains in numbers, but growth in thought.
+
+:::
 ---
