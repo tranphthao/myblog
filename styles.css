@@ -3,9 +3,9 @@
   font-size: 0.9rem;
   font-weight: normal;
 }
-.quarto-title-banner .quarto-title .title {
-  font-size: 2.2rem;  /* adjust as needed */
+h1.title, .quarto-title-banner .title {
+  font-size: 2.2rem !important;
 }
-.post-title + .post-categories {
-  margin-top: 0.5rem; /* You can adjust the spacing */
+.quarto-title-meta {
+  margin-top: 0.5rem !important;
 }
