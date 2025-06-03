@@ -2,8 +2,9 @@
 title: "Curves of Life: A Note Through Growth and Decay Models"
 author: "Thao Phuong Tran"
 date: "2025-06-03"
-categories: [Harvest Notes]
+categories: [Harvest Notes] [Maths Modeling]
+thumbnail: write1.png
+image: false
 ---
 
-![](write1.png)
 Exponential models are among the most fundamental tools in mathematical modeling. Although real-world phenomena are often too complex to be captured by exponential models alone, requiring adjustments and the inclusion of external factors - these models still serve as essential foundations for many modern, sophisticated mathematical frameworks. This journal documents my study of the core principles of exponential models and their notable applications. 
