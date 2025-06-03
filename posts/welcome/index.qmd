@@ -1,12 +1,9 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2025-05-31"
-categories: [news]
+title: "Curves of Life: A Note Through Growth and Decay Models"
+author: "Thao Phuong Tran"
+date: "2025-06-03"
+categories: [Harvest Notes]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![](write1.png)
+Exponential models are among the most fundamental tools in mathematical modeling. Although real-world phenomena are often too complex to be captured by exponential models alone, requiring adjustments and the inclusion of external factors - these models still serve as essential foundations for many modern, sophisticated mathematical frameworks. This journal documents my study of the core principles of exponential models and their notable applications. 

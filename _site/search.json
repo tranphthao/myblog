@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "The Garden of Gains",
+    "title": "My Garden of Gains",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 3, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 31, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Curves of Life: A Note Through Growth and Decay Models\n\n\n\nHarvest Notes\n\n\n\n\n\n\n\n\n\nJun 3, 2025\n\n\nThao Phuong Tran\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Curves of Life: A Note Through Growth and Decay Models",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Exponential models are among the most fundamental tools in mathematical modeling. Although real-world phenomena are often too complex to be captured by exponential models alone, requiring adjustments and the inclusion of external factors - these models still serve as essential foundations for many modern, sophisticated mathematical frameworks. This journal documents my study of the core principles of exponential models and their notable applications."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "Thao (Tracy) Tran",
     "section": "",
-    "text": "A data analysis master student with finance undergraduate background.\nThe Garden of Gains is a quiet space where I gather my thoughts and observations about the world of maths and finance. Like keeping a journal in a garden, I write to reflect on the news I read, the case studies I explore, and the insights I uncover along the way. This is where ideas take root, grow, and sometimes bloom into deeper understanding. It’s not just about gains in numbers, but growth in thought."
+    "text": "A data analysis master student with finance undergraduate background.\nMy Garden of Gains is a quiet space where I gather my thoughts and observations about the world of maths and finance. Like keeping a journal in a garden, I write to reflect on the news I read, the case studies I explore, and the insights I uncover along the way. This is where ideas take root, grow, and sometimes bloom into deeper understanding. It’s not just about gains in numbers, but growth in thought."
   },
   {
     "objectID": "about.html#the-garden-of-gains-is-a-quiet-space-where-i-gather-my-thoughts-and-observations-about-the-world-of-math-and-finance.-like-keeping-a-journal-in-a-garden-i-write-to-reflect-on-the-news-i-read-the-case-studies-i-explore-and-the-insights-i-uncover-along-the-way.-this-is-where-ideas-take-root-grow-and-sometimes-bloom-into-deeper-understanding.-its-not-just-about-gains-in-numbers-but-growth-in-thought.",
@@ -39,6 +39,6 @@
     "href": "about.html#about-this-blog",
     "title": "Thao (Tracy) Tran",
     "section": "",
-    "text": "A data analysis master student with finance undergraduate background.\nThe Garden of Gains is a quiet space where I gather my thoughts and observations about the world of maths and finance. Like keeping a journal in a garden, I write to reflect on the news I read, the case studies I explore, and the insights I uncover along the way. This is where ideas take root, grow, and sometimes bloom into deeper understanding. It’s not just about gains in numbers, but growth in thought."
+    "text": "A data analysis master student with finance undergraduate background.\nMy Garden of Gains is a quiet space where I gather my thoughts and observations about the world of maths and finance. Like keeping a journal in a garden, I write to reflect on the news I read, the case studies I explore, and the insights I uncover along the way. This is where ideas take root, grow, and sometimes bloom into deeper understanding. It’s not just about gains in numbers, but growth in thought."
   }
 ]

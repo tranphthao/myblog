@@ -1,5 +1,5 @@
 ---
-title: "The Garden of Gains"
+title: "My Garden of Gains"
 listing:
   contents: posts
   sort: "date desc"
