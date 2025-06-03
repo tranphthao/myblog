@@ -2,19 +2,17 @@ project:
   type: website
 
 website:
-  title: "myblog"
+  title: "The Garden of Gains"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/tranphthao
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pthaotran/
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: journal
     css: styles.css
 
 editor: visual
