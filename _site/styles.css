@@ -9,6 +9,10 @@
   font-weight: bold;
 }
 /* Add space between post title and category tag */
-.quarto-post .listing-title {
-  margin-bottom: 0.5rem; /* Adjust spacing */
+h3.no-anchor.listing-title {
+  margin-bottom: 0.5rem;  /* add space below the title */
+}
+
+div.listing-categories {
+  margin-top: 0.5rem; /* add space above categories if needed */
 }
