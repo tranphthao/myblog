@@ -12,11 +12,9 @@ To begin, it's especially important, particularly for those without a strong mat
 
 The rate of change or relative change of such function is the change in $f(x)$ divided by the change in $x$: $$
 \frac{f(x+\Delta x)- f(x)}{\Delta x}
-$$ In simple terms, a derivative tells us how a function is changing at one specific point. Imagine we’re looking at how something changes as we slightly change $x$, just a tiny bit. We make that change in $x$ ($\Delta x$) as small as possible - almost zero! The derivative is like zooming in super close to see how the function is behaving right there, at that tiny moment.
-$$
+$$ In simple terms, a derivative tells us how a function is changing at one specific point. Imagine we’re looking at how something changes as we slightly change $x$, just a tiny bit. We make that change in $x$ ($\Delta x$) as small as possible - almost zero! The derivative is like zooming in super close to see how the function is behaving right there, at that tiny moment. $$
 f'(x)=\frac{df(x)}{dx}=\lim_{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}
 $$
-
 
 **THE EXPONENTIAL GROWTH MODEL**
 
