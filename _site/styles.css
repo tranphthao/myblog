@@ -3,3 +3,12 @@
   font-size: 0.9rem;
   font-weight: normal;
 }
+/* Make blog title bigger */
+.navbar-title {
+  font-size: 2.5rem; /* Adjust as desired */
+  font-weight: bold;
+}
+/* Add space between post title and category tag */
+.quarto-post .listing-title {
+  margin-bottom: 0.5rem; /* Adjust spacing */
+}

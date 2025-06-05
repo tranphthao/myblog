@@ -2,7 +2,7 @@
 title: "Curves of Life: A Note Through Growth and Decay Models"
 author: "Thao Phuong Tran"
 date: "2025-06-03"
-categories: [Harvest Notes] [Maths Modeling]
+categories: ["Harvest Notes", "Maths Modeling"]
 thumbnail: write1.png
 image: false
 ---

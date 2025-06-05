@@ -3,9 +3,12 @@
   font-size: 0.9rem;
   font-weight: normal;
 }
-h1.title, .quarto-title-banner .title {
-  font-size: 2.2rem !important;
+/* Make blog title bigger */
+.navbar-title {
+  font-size: 2.5rem; /* Adjust as desired */
+  font-weight: bold;
 }
-.quarto-title-meta {
-  margin-top: 0.5rem !important;
+/* Add space between post title and category tag */
+.quarto-post .listing-title {
+  margin-bottom: 0.5rem; /* Adjust spacing */
 }
