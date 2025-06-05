@@ -8,7 +8,7 @@ image: "write1.png"
 
 Exponential models are among the most fundamental tools in mathematical modeling. Although real-world phenomena are often too complex to be captured by exponential models alone, requiring adjustments and the inclusion of external factors - these models still serve as essential foundations for many modern, sophisticated mathematical frameworks. This journal documents my study of the core principles of exponential models and their notable applications.
 
-To begin, it's especially important, particularly for those without a strong mathematical background or for people like me who studied calculus years ago, to revisit the concepts of derivatives and differential equations. Differential is the change in a continuous function ( y = f(x) ) due to small change in $x$. For instance, between neighboring points $x$ and $x+\Delta x$, the change in function is $f(x+\Delta x)- f(x)$.
+To begin, it's especially important, particularly for those without a strong mathematical background or for people like me who studied calculus years ago, to revisit the concepts of derivatives and differential equations. Differential is the change in a continuous function $y = f(x)$ due to small change in $x$. For instance, between neighboring points $x$ and $x+\Delta x$, the change in function is $f(x+\Delta x)- f(x)$.
 
 The rate of change or relative change of such function is the change in $f(x)$ divided by the change in $x$: $$
 \frac{f(x+\Delta x)- f(x)}{\Delta x}
@@ -38,11 +38,15 @@ At first, I also misunderstood continuous compounding as something that compound
 
 Decay model describes the population decrease proportionally to its size. The exponential decay occurs when the proportionality factor is negative valued. Model becomes $y’(t)= -\alpha y(t)$ whose the population $y$ as a function of time $t$ is: $$
 y(t)= y(0) e^{-\alpha t}
-$$ with $\alpha>0$. One of the most common applications of exponential decay is radioactive decay. Many elements found in nature are radioactive, meaning they emit energy as they spontaneously transform into more stable forms. This transformation leads to a gradual decrease in the number of undecayed atoms over time. The process can be measured using instruments like a Geiger counter, which detects the particles or photons emitted during decay. The rate at which radioactive substances decay typically follows an exponential model, where the amount of the substance decreases at a rate proportional to its current quantity, making it a textbook example of exponential decay in action.
+$$ with $\alpha>0$. 
 
-A popular measurement of decay is an element’s half-life. The half-life is the time required for an element’s radioactive intensity to fall to one-half of its initial value. For the half life, we can set $y(t)=\frac{1}{2} y(0)$ to yield $$
+One of the most common applications of exponential decay is radioactive decay. Many elements found in nature are radioactive, meaning they emit energy as they spontaneously transform into more stable forms. This transformation leads to a gradual decrease in the number of undecayed atoms over time. The process can be measured using instruments like a Geiger counter, which detects the particles or photons emitted during decay. The rate at which radioactive substances decay typically follows an exponential model, where the amount of the substance decreases at a rate proportional to its current quantity, making it a textbook example of exponential decay in action.
+
+A popular measurement of decay is an element’s half-life. The half-life is the time required for an element’s radioactive intensity to fall to one-half of its initial value. For the half life, we can set $y(t)=\frac{1}{2} y(0)$ to yield 
+$$
 \frac{1}{2} y(0)= y(0) e^{-\alpha t} \rightarrow -\alpha t = ln(\frac{1}{2})⁡
-$$ Building on this property of exponential decay, we arrive at *carbon dating*, a widely used method in archaeology to estimate the age of once-living organisms. In living beings, the ratio of carbon-12 to carbon-14 is known and remains relatively constant across plants and animals. However, once the organism dies, carbon-14, being radioactive, starts to decay with a known half-life of 5,739 years. Using this information, we can determine the decay constant $\alpha$ for the exponential decay model. By measuring the current proportion of carbon-14 remaining in a sample, we can estimate how long ago the organism died.
+$$ 
+Building on this property of exponential decay, we arrive at *carbon dating*, a widely used method in archaeology to estimate the age of once-living organisms. In living beings, the ratio of carbon-12 to carbon-14 is known and remains relatively constant across plants and animals. However, once the organism dies, carbon-14, being radioactive, starts to decay with a known half-life of 5,739 years. Using this information, we can determine the decay constant $\alpha$ for the exponential decay model. By measuring the current proportion of carbon-14 remaining in a sample, we can estimate how long ago the organism died.
 
 In finance, despite reviewing several studies, I found that the exponential decay model has limited direct application. One exception is in present value calculations involving continuously compounded interest, which mathematically resembles decay. I initially thought the model might apply to estimating loan prepayment rates, since prepayments reduce the outstanding loan balance over time. However, since prepayments usually occur at regular intervals rather than continuously, the exponential decay model doesn’t quite fit in that context.
 
@@ -52,15 +56,19 @@ One limitation of the exponential growth model is that it doesn’t account for 
 
 This is where the logistic growth model comes in. It addresses the limitations of exponential growth by assuming that the growth rate is not only proportional to the existing population but also to the amount of remaining resources. As resources become scarce, the growth rate slows, eventually leveling off, creating an S-shaped curve that better reflects real-world population dynamics. $$
 \frac{dy}{dt} = \alpha y (1 - \frac{y}{K})
-$$ where $K$ is the carrying capacity, the maximum population size (or amount of whatever is growing) that an environment can sustainably support. It’s determined by limited resources such as food, space, water, capital, or market size, depending on the context. Solve this differential equation, we have: $$
+$$ where $K$ is the carrying capacity, the maximum population size (or amount of whatever is growing) that an environment can sustainably support. It’s determined by limited resources such as food, space, water, capital, or market size, depending on the context. Solve this differential equation, we have: 
+$$
 \frac{dy}{y(1-\frac{y}{K})} = \alpha dt \rightarrow lny - ln(1-\frac{y}{K}) = \alpha t + C
-$$ $$
+$$ 
+$$
 y = \frac{K}{1+Ce^{-\alpha t}}
-$$ where $C$ is a constant determined by the initial condition $y(0)$. Observing the graph below, we can witness that the logistic growth curve is bounded by carrying capacity K and cannot grow above it. ![](chart.png)
+$$ 
+where $C$ is a constant determined by the initial condition $y(0)$. Observing the graph below, we can witness that the logistic growth curve is bounded by carrying capacity K and cannot grow above it. ![](chart.png)
 
 Beyond biology, sociology, and demographics, the logistic growth model can also be applied to forecasting economic indicators such as national income, per capita savings, real estate sales, and more. It’s useful in contexts where growth starts rapidly but eventually slows as it approaches a limit or saturation point.
 
 A quick reminder: don’t confuse the logistic growth model with logistic regression. While both share an S-shaped curve, they serve entirely different purposes. Logistic growth models are used to estimate how a population or quantity evolves over time with resource constraints, whereas logistic regression is a statistical method used to estimate probabilities, often for classification problems.
+
 
 *Reference*
 
